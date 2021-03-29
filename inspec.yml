@@ -1,0 +1,22 @@
+name: linux
+title: InSpec Profile for the Compliance of Linux Servers.
+maintainer: Asdrubal Gonzalez Penton
+copyright: Asdrubal Gonzalez
+copyright_email: agpenton@gmail.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  platform: os
+
+depends:
+  - name: DevSec Linux Baseline
+    supermarket: dev-sec/linux-baseline
+  - name: DevSec SSH Baseline
+    supermarket: dev-sec/ssh-baseline
+  - name: CIS Docker Benchmark
+    supermarket: dev-sec/cis-docker-benchmark
+  - name: DevSec Nginx Baseline
+    supermarket: dev-sec/nginx-baseline
+  - name: DevSec PostgreSQL Baseline
+    supermarket: dev-sec/postgres-baseline
